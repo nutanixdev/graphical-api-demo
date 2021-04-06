@@ -73,7 +73,7 @@ The "Full VM Deployment" with Cloud-Init will also install the `httpd` web serve
   Note: Deployment of a Laravel PHP application on Nginx or Apache (etc) is beyond the scope of this demo.
 
 - Browse to `http://localhost:8000`
-- Login with username `no-reply@acme.com` and password `password`
+- Login with username `no-reply@acme.com` and password `nutanix/4u`
 - Enter cluster details:
 
   - Cluster virtual IP or CVM IP address (this **must** be the cluster IP or CVM IP, **not** Prism Central)
