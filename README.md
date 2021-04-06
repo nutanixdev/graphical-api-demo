@@ -74,6 +74,9 @@ The "Full VM Deployment" with Cloud-Init will also install the `httpd` web serve
 
 - Browse to `http://localhost:8000`
 - Login with username `no-reply@acme.com` and password `nutanix/4u`
+
+  **Note**: To change the default credentials, edit `database/seeds/SentinelTableSeeder.php`, starting on line **53**
+
 - Enter cluster details:
 
   - Cluster virtual IP or CVM IP address (this **must** be the cluster IP or CVM IP, **not** Prism Central)
