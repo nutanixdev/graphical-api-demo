@@ -55,7 +55,7 @@ class SentinelTableSeeder extends Seeder
             'last_name' => 'Johns',
             'email' => 'no-reply@acme.com',
             'address_country' => 'au',
-            'password' => 'password',
+            'password' => 'nutanix/4u',
         ] );
 
         $role = \Sentinel::findRoleByName( 'Administrator' );
