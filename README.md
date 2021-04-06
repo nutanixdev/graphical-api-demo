@@ -16,7 +16,7 @@ Demo app aimed at showing how to consume the Nutanix v2 REST API using PHP.
 # Requirements - Full VM Deployment
 
 - For reference only, the `web-server.yaml` in this repo
-- An existing CentOS Linux VM that has the `cloud-init` package **already installed** (this is critical)
+- An existing Linux VM that has the `cloud-init` package **already installed** (this is critical)
 - To make parameter entry easy, you can click 'Need cluster details? Click here!' then 'Get Details'.  Click the container name you want to use, the network UUID you want to use and the disk UUID you want to use.  Please note the selected disk UUID must be one that has `cloud-init` already installed
 
 The "Full VM Deployment" with Cloud-Init will also install the `httpd` web server.  After deployment, the deployed VM's default web server pages can be accessed on the VM's primary IP address.
